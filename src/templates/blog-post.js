@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
+import moment from "moment";
 
 const Template = ({data, location, pathContext}) => {
     const {markdownRemark: post} = data;
@@ -12,8 +13,7 @@ const Template = ({data, location, pathContext}) => {
         <div>
             <Helmet title={`${title} - Thingster`}/>
             <div>
-                <h1>{title}</h1>
-                <h3>{date}</h3>
+                <p>{moment(date).format('YYYY-MM-d')}</p>
                 <div dangerouslySetInnerHTML={{__html: html}}/>
             </div>
 

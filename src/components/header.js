@@ -24,7 +24,7 @@ const Header = ({siteTitle}) => (
                         textDecoration: 'none',
                     }}
                 >
-                   Thingster - on the way to physical internet.
+                   Thingster
                 </Link>
             </h1>
         </div>
