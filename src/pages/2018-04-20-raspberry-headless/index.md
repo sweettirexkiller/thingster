@@ -5,7 +5,6 @@ title: "Completely Headless Raspberry"
 tags: ['raspberrypi', 'setup']
 excerpt: "No keyboard, display, mouse or ethernet needed."
 ---
-
 # Completely headless Raspberry Pi 3 B+ setup
 
 Start by preparing system for raspberry. Download Rasbian Lite zip file from [raspberrypi.org/downloads/raspbian/](https://www.raspberrypi.org/downloads/raspbian/)
