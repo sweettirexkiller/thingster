@@ -32,7 +32,7 @@ In the `post-receive` write the following:
  Explanation: `--work-tree` tells where the hook should redirect code to and `--git-dir` directs to the repository directory (so that git can compare histories).
  
  Make sure that the file is executable
-    
+ 
     chmod +x post-receive
     
 Now in your *local* version of repository add a ***new remote***
