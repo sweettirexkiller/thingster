@@ -1,4 +1,5 @@
 module.exports = {
+    pathPrefix: `/thingster`,
     siteMetadata: {
         title: 'Gatsby Default Starter',
     },
