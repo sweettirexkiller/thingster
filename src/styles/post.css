@@ -1,0 +1,15 @@
+.nav-button {
+    background: #eee;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.nav-button:hover {
+    background-color: #999999;
+    color: black;
+}
+
+.post {
+
+}

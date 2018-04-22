@@ -67,7 +67,7 @@ const Layout = ({children, data}) => (
                                     <div style={{ flex: 1 }}>
                                     <Sidebar
                                         title="Thingster"
-                                        description="Artiles on IoT development. All written by Peter Yankievich."
+                                        description="Recipes on IoT development. All written by Peter Yankievich."
                                     />
                                     <Sidebar
                                         title="About author"

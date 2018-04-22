@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
-import moment from "moment";
+import '../styles/post.css';
 
 const Template = ({data, location, pathContext}) => {
     const {markdownRemark: post} = data;
@@ -10,25 +10,24 @@ const Template = ({data, location, pathContext}) => {
     const {next, prev} = pathContext;
 
     return (
-        <div>
+        <div className='post'>
             <Helmet title={`${title} - Thingster`}/>
             <div>
-                <p>{moment(date).format('YYYY-MM-d')}</p>
                 <div dangerouslySetInnerHTML={{__html: html}}/>
             </div>
 
             <p>
                 {prev && (
-                    <Link to={prev.frontmatter.path}>
-                        Previous: {prev.frontmatter.title}
+                    <Link to={prev.frontmatter.path} className='nav-button'>
+                        &laquo;Previous: {prev.frontmatter.title}
                     </Link>
                 )}
             </p>
 
             <p>
                 {next && (
-                    <Link to={next.frontmatter.path}>
-                        Next: {next.frontmatter.title}
+                    <Link to={next.frontmatter.path} className='nav-button'>
+                        Next: {next.frontmatter.title} &raquo;
                     </Link>
                 )}
             </p>
