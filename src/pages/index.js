@@ -10,11 +10,21 @@ const IndexPage = ({data}) => {
                 return (
                     <div  key={post.id}>
                         <h2>
-                            <Link to={frontmatter.path}/>
+                            <Link to={frontmatter.path}>
                             {frontmatter.title}
+                            </Link>
                         </h2>
                         <p>{frontmatter.date}</p>
                         <p>{frontmatter.excerpt}</p>
+                        <ul>
+                            {frontmatter.tags.map(tag=>{
+                                return (
+                                    <li>
+                                        <Link to={`/tags/${tag}`}>{tag}</Link>
+                                    </li>
+                                )
+                            })}
+                        </ul>
                     </div>
                 )
             })}
