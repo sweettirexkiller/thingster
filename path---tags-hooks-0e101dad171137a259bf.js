@@ -1,0 +1,2 @@
+webpackJsonp([0x9a98856b8bbb],{346:function(e,t){e.exports={pathContext:{posts:[{html:'<h1>Deploy code to embedded device with Git</h1>\n<style type="text/css">\n  \n</style>',frontmatter:{date:"2018-04-22",path:"/git-device-deploy",title:"Deploy code to embedded device with Git!",excerpt:"Send your code to device without usb, scp, rsync. Fast workflow.",tags:["git","deploy","hooks","repository"]}}],tagName:"hooks"}}}});
+//# sourceMappingURL=path---tags-hooks-0e101dad171137a259bf.js.map
